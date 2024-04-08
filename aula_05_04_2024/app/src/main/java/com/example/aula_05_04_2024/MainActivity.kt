@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,11 +19,14 @@ import com.example.aula_05_04_2024.ui.theme.Aula_05_04_2024Theme
 import java.math.RoundingMode
 
 class MainActivity : ComponentActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.imc_main)
 
-        var lblResult: TextView = findViewById(R.id.lblResult)
+        var lblResult:TextView = findViewById(R.id.lblResult)
         var edtAltura: EditText = findViewById(R.id.edtAltura)
         var edtPeso: EditText = findViewById(R.id.edtPeso)
         var btnCalcIMC: Button = findViewById(R.id.btnCalcIMC)
@@ -36,4 +40,14 @@ class MainActivity : ComponentActivity() {
 
 
     }
+
+    /*override fun onPause() {
+        super.onPause()
+        Toast.makeText(this,"executando OnPause()", Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Toast.makeText(this,"executando OnResume()", Toast.LENGTH_SHORT).show()
+    }*/
 }

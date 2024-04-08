@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FibonacciActivity">
+
+    <TextView
+        android:id="@+id/lblFib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite a posição do número de fibonacci:"
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edtFib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:textSize="9pt"/>
+
+    <Button
+        android:id="@+id/btnFib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Número de Fibonacci" />
+
+    <TextView
+        android:id="@+id/lblResultFib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
