@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <Button
+        android:id="@+id/btnUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Google!" />
+
+    <Button
+        android:id="@+id/btnShareMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartilhar" />
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to youtube!" />
+</LinearLayout>
