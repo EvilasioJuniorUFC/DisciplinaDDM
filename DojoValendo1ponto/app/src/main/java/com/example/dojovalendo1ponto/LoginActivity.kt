@@ -3,6 +3,7 @@ package com.example.dojovalendo1ponto
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -21,17 +22,18 @@ class LoginActivity : AppCompatActivity() {
         editTextText2 = findViewById(R.id.editTextText2)
 
         loginb.setOnClickListener(){
-            var loginModel = LoginModel()
-            val isChcecked = loginModel.verificaLogin(LoginModel(editTextText.text.toString(), editTextText2.text.toString()))
+            //var ologinModel = LoginModel()
+            val isChcecked = LoginModel.verificaLogin(LoginModel(editTextText.text.toString(), editTextText2.text.toString()))
 
             if (isChcecked){
                 val ilogin = Intent(this, MainActivity::class.java)
                 ilogin.putExtra("name", editTextText.text.toString())
+                Log.i("trocatela", "antes de trocar a tela")
                 startActivity(ilogin)
             }
             else{
                 LoginModel.mensageFail(this)
-                //loginModel.mensageFail(this)
+                //ologinModel.mensageFail(this)
                 //Toast.makeText(this,"Login failed",Toast.LENGTH_LONG).show()
             }
 

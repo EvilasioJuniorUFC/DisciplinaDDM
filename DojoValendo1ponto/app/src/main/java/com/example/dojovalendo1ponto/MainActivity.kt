@@ -2,6 +2,7 @@ package com.example.dojovalendo1ponto
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -23,6 +24,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.active_main)
+            Log.i("trocouatela", "trocou a tela")
             var txtName = findViewById<TextView>(R.id.textView2)
             txtName.text = intent.getStringExtra("name")
 
