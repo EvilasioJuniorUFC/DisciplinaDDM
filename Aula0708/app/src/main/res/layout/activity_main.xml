@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_developer"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/edtLinguagem"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/linguagem_preferida"
+        android:text="@string/kotlin"
+        android:inputType="textPersonName"
+        android:autofillHints=""/>
+    <EditText
+        android:id="@+id/edtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/idade"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/edtUrlFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/url_da_foto_do_perfil"
+        android:inputType="textUri"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/edtBiografia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/fale_um_pouco_sobre_voce"
+        android:inputType="textMultiLine"
+        android:importantForAutofill="no" />
+    <Button
+        android:id="@+id/btnVerPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/ver_perfil"
+        android:onClick="verPerfil"/>
+
+</LinearLayout>

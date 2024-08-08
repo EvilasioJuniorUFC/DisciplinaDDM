@@ -12,7 +12,7 @@ class CounterActivity : AppCompatActivity() {
         var contador = findViewById<TextView>(R.id.txtCount)
         var i = 1
         Thread(Runnable {
-            while(i<=20){
+            while(i<=100){
                 runOnUiThread{
                     contador.text = i.toString()
                 }
