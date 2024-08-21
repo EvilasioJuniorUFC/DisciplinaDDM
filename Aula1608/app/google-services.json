@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "892911791702",
+    "firebase_url": "https://aula1608-default-rtdb.firebaseio.com",
+    "project_id": "aula1608",
+    "storage_bucket": "aula1608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892911791702:android:d81191540b80478167d5f7",
+        "android_client_info": {
+          "package_name": "br.ufc.aula16_08"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3wCXDE4h7MvvDegUoKiDPyBV_apgEYdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "306536232204",
+    "project_id": "disciplinaddm",
+    "storage_bucket": "disciplinaddm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306536232204:android:11025f5935bc39441a4529",
+        "android_client_info": {
+          "package_name": "br.ufc.aula0908"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlnBHzFPn9N-jsgWxT1M_ZzMG4cOrNiiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

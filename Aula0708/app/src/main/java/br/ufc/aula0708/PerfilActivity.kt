@@ -24,7 +24,7 @@ class PerfilActivity : AppCompatActivity() {
         val imgFotoDeCapa = findViewById<ImageView>(R.id.imgFotoDeCapa)
         val imgFotoDePerfil = findViewById<CircleImageView>(R.id.imgFotoDePerfil)
 
-        var url = URL("https://yopinando.wordpress.com/wp-content/uploads/2024/07/os-complexos-esquemas-e-aliancas-na-estreia-do-shogun-explicados.jpg")
+        developer.foto = "https://pbs.twimg.com/media/EYPUkxKWoAQax4W.jpg"
 
         // Biblioteca Glide, coloca a imagem do URL na ImageView foto de capa
         Glide.with(this)

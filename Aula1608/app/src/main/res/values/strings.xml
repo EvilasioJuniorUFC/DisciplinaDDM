@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aula1608</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="senha">senha</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="telacadastro"><u>Não possui cadastro? Clique aqui para se cadstrar</u></string>
+    <string name="deslogar">Deslogar</string>
+    <string name="cadastrar_livro">Cadastrar Livro</string>
+</resources>
