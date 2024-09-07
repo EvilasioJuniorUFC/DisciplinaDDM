@@ -7,10 +7,13 @@ import android.widget.Toast
 import br.ufc.aula16_08.databinding.*
 import br.ufc.aula16_08.databinding.ActivityRealMainBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
 
 class RealMainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityRealMainBinding
+    private val db = FirebaseFirestore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_real_main)
@@ -19,8 +22,9 @@ class RealMainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         var idLastlivro = intent.getStringExtra("idLastLivro")
+
         if(idLastlivro == null){
-            idLastlivro = "joao e maria"
+            idLastlivro = "Sapiens"
         }
 
         binding.btnDeslogar.setOnClickListener{

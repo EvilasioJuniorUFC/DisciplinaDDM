@@ -1,0 +1,7 @@
+{
+  "name": "aula2808tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

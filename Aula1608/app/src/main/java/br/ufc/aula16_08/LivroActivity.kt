@@ -1,5 +1,6 @@
 package br.ufc.aula16_08
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.ufc.aula16_08.databinding.ActivityLivroBinding
@@ -19,6 +20,12 @@ class LivroActivity : AppCompatActivity() {
         //resgata id do último livro
         val idColecao = intent.getStringExtra("id")
         //preenche informações do livro
+
+        binding.btnVoltar.setOnClickListener{
+            val intent = Intent(this, RealMainActivity::class.java)
+            startActivity(intent)
+        }
+
         db.collection("Livros").document(idColecao!!)
             .addSnapshotListener{ documento, error ->
                 if(documento != null){

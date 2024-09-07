@@ -8,4 +8,5 @@
     <string name="telacadastro"><u>Não possui cadastro? Clique aqui para se cadstrar</u></string>
     <string name="deslogar">Deslogar</string>
     <string name="cadastrar_livro">Cadastrar Livro</string>
+    <string name="livro">Livro</string>
 </resources>

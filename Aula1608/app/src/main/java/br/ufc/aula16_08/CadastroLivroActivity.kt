@@ -17,7 +17,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.storage.FirebaseStorage
 
 class CadastroLivroActivity : AppCompatActivity() {
-    val db = Firebase.firestore
+    private val db = Firebase.firestore
     private val storage = FirebaseStorage.getInstance()
 
     private var uriImagem: Uri? = null

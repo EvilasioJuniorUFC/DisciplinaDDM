@@ -1,0 +1,12 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Movies</ion-title>
+    <ion-menu-button slot="start"></ion-menu-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-label><h1>{{titulo}}</h1></ion-label>
+  <ion-label><h2>{{anolancamento}}</h2></ion-label>
+  <ion-button expand="block" color="secondary" (click)="back()">Voltar</ion-button>
+</ion-content>

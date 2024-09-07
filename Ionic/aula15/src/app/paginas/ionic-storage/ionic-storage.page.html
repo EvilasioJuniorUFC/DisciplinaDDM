@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Ionic Storage</ion-title>
+    <ion-menu-button slot="start"></ion-menu-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <p><ion-button (click)="setValue()">Salvar Valor</ion-button></p>
+  <p><ion-button (click)="getValue()">Resgatar Valor</ion-button></p>
+  <p><ion-button (click)="removeValue()">Remover Valor</ion-button></p>
+  <p><ion-button (click)="clearStorage()">Limpar Dados</ion-button></p>
+  <p><ion-label>{{value}}</ion-label></p>
+</ion-content>
