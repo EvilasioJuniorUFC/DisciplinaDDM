@@ -1,8 +1,7 @@
 # DisciplinaDDM
 
-Reopisódios de aplicações desenvolvidas para aulas da disciplina de Desenvolvimento para Dispositivos Móveis 
+Repositório de aplicações desenvolvidas para aulas da disciplina de Desenvolvimento para Dispositivos Móveis no semestre 2024.1
 
-<<<<<<< HEAD
 == AndroidNativo ==
 
 aula_05-04-2024 - Activities e Calculadora de IMC e Calculadora de Fibonacci (Dojo)
