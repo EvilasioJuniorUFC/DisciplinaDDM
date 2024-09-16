@@ -41,5 +41,4 @@ aula300824 - Criação de aplicação com side menu, criando páginas, atributos
 appaula - Primeiro programa React Native, alerta e execução no celular e emulador - aula do dia 11 de setembro
 
 aula1309 - Estrutura, _layouts, Menus, Páginas, inputs, Componentes, Constantes, Imagem, Botões, Links  
-=======
->>>>>>> 470325e33f1957fe64167c44d76ccc1d91858bf0
+
