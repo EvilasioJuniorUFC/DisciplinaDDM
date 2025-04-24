@@ -1,0 +1,10 @@
+# Item de Configuração: [NOME DO IC]
+
+- **ID**: [IC-001]
+- **Tipo**: [Código-fonte/Documento/Teste]
+- **Versão**: [1.0.0]
+- **Repositório**: [URL do GitHub/GitLab]
+- **Branch**: [main/feature/123-auth]
+- **Commit ID**: [abc1234]
+- **Mudanças**: [Descrição das alterações nesta versão]
+- **Data Release**: [DD/MM/AAAA]
